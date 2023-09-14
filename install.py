@@ -68,9 +68,9 @@ def install():
 
 
 try:
-    import launch
+    import fall
 
-    skip_install = launch.args.skip_install
+    skip_install = fall.args.skip_install
 except Exception:
     skip_install = False
 
